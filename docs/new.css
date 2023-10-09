@@ -1,0 +1,120 @@
+.navbar{
+    gap: 10%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+@media only screen and (max-width: 1270px) {
+    .navbar{
+        flex-direction: column;
+        gap: 0%;
+    }
+    .navitems{
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 770px)
+{
+    .navitems{
+        margin-top: 0px;
+    }
+
+    .collapsed{
+        border-color: blueviolet;
+        border-width: 5px;
+    }
+    
+}
+
+.item:hover{
+    color: blueviolet;
+}
+
+
+.carousel-wrapper{
+    margin-top: 100px;
+    width: 40%;
+    
+}
+
+.carousel-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.control-button{
+    transform: translateY(75%);
+}
+
+
+.title-container{
+    margin-top: 200px;
+}
+
+
+.container {
+    width: 50%;
+    height: 75vh;
+    margin-left: 25%;
+    border-radius: 5%;
+    margin-top: 75px;
+}
+
+.title-container-one{
+    margin-top: 235px;
+}
+
+.title-container-two{
+    margin-top: 100px;
+}
+.textbox {
+    width: 90%;
+    height: 90%;
+    overflow-y: auto;
+    border-radius: 5%;
+
+}
+
+.textbox p{
+    width: 85%;
+}
+
+.place-holder{
+    height: 1px;
+}
+
+#challenge {
+    transform: translateY(850%);
+    height: 10px;
+}
+
+#solution {
+    transform: translateY(-100%);
+    height: 0px;
+}
+
+.container-soln{
+    width: 90%;
+}
+
+.container-soln h2 {
+    margin-top: 10px;
+}
+
+.container-soln-bottom{
+    width: 90%;
+
+}
+
+.c-wrap-2{
+    height: 500px;
+}
+
+.container-soln-bottom.container-bottom{
+    width: 100%;
+}
